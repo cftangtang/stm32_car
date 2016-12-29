@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\STM32F10x_FWLib\inc;..\CORE;..\USER</IncludePath>
+              <IncludePath>..\STM32F10x_FWLib\inc;..\CORE;..\USER;..\DRIVER;..\APP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -557,6 +557,26 @@
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\STM32F10x_FWLib\src\stm32f10x_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>DRIVER</GroupName>
+          <Files>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\DRIVER\usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>APP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_Init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\APP\bsp_Init.c</FilePath>
             </File>
           </Files>
         </Group>

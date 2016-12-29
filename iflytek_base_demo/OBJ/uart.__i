@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\DRIVER -I..\APP
+-I C:\Users\admin\Desktop\linuxshare\learngit\iflytek_base_demo\USER\RTE
+-I "D:\Program Files (x86)\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"
+-I "D:\Program Files (x86)\keil5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\uart.o --omf_browse ..\obj\uart.crf --depend ..\obj\uart.d "..\DRIVER\uart.c"
