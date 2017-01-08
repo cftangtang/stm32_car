@@ -574,9 +574,9 @@
           <GroupName>APP</GroupName>
           <Files>
             <File>
-              <FileName>bsp_Init.c</FileName>
+              <FileName>bsp_init.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\APP\bsp_Init.c</FilePath>
+              <FilePath>..\APP\bsp_init.c</FilePath>
             </File>
           </Files>
         </Group>

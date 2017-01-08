@@ -762,7 +762,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\DRIVER\usart.c)(0x58650D73)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\DRIVER -I..\APP-I C:\Users\admin\Desktop\linuxshare\learngit\iflytek_base_demo\USER\RTE-I "D:\Program Files (x86)\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "D:\Program Files (x86)\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\DRIVER\usart.c)(0x5870F9F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\DRIVER -I..\APP-I C:\Users\admin\Desktop\linuxshare\learngit\iflytek_base_demo\USER\RTE-I "D:\Program Files (x86)\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "D:\Program Files (x86)\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\DRIVER\usart.h)(0x58650DD0)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -793,7 +793,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (D:\Program Files (x86)\keil5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\APP\bsp_Init.c)(0x58650D06)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\DRIVER -I..\APP-I C:\Users\admin\Desktop\linuxshare\learngit\iflytek_base_demo\USER\RTE-I "D:\Program Files (x86)\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "D:\Program Files (x86)\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\bsp_init.o --omf_browse ..\obj\bsp_init.crf --depend ..\obj\bsp_init.d)
+F (..\APP\bsp_init.c)(0x5871AB27)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\DRIVER -I..\APP-I C:\Users\admin\Desktop\linuxshare\learngit\iflytek_base_demo\USER\RTE-I "D:\Program Files (x86)\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "D:\Program Files (x86)\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\bsp_init.o --omf_browse ..\obj\bsp_init.crf --depend ..\obj\bsp_init.d)
 I (..\APP\bsp_init.h)(0x58650DD0)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)

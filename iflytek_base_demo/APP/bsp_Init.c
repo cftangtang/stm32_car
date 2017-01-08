@@ -24,9 +24,9 @@
 void bsp_init(void)
 {
 	
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
 	
-	usart1_init(115200,0,1);
+	usart1_init(115200,0,0);
 	
 }
 
